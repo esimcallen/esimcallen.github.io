@@ -1,0 +1,131 @@
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	margin: 0px;
+	padding: 0;
+}
+.descript1pg{
+	position:absolute;
+	top: 25%;
+	margin-left: 42%;
+	color:#544141;
+	font-size:150%;
+	align-items: center;
+	text-align: center;
+}
+
+.titlepg1{
+	font-size: 200%;
+}
+
+.mainpic{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	display: flex;
+	position: absolute;
+}
+.navBar{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	border-radius:5px;
+	position:fixed;
+	top:0;
+	width:100%;
+	text-decoration:none;
+	z-index: 9999;
+}
+
+input, textarea{
+	width: 100%;
+	padding: 10px;
+	outline: 0;
+	border: 1px solid #fff;
+	color: #544141;
+	background: transparent;
+	font-size: 15px;
+}
+
+label{
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	padding: 10px;
+	color: #fff;
+	cursor: text;
+	transition: 0.2s;
+}
+
+button{
+	padding: 10px 0;
+	color: ##544141;
+	outline: none;
+	background: transparent;
+	border: 1px solid #fff;
+	width: 100%;
+	cursor: pointer;
+}
+input:focus~label,
+input:valid~label,
+textarea:focus~label,
+textarea:valid~label{
+	top: -35px;
+	font-size: 14px;
+	color: #544141;
+}
+
+.row{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+*{
+	font-family: 'Poppins', sans-serif;
+	box-sizing: border-box;
+}
+
+li{
+	float:right;
+}
+
+li a{
+	display: block;
+	padding: 8px;
+	text-align:center;
+	color: white;
+	text-decoration:none;
+}
+li a:hover:not(:active){
+	background-color:rgb(212, 209, 209);
+}
+
+section:nth-of-type(1) {
+	color: #fff;
+	height: calc(100vh + 53px);
+	padding: 0;
+	line-height: 36pt;
+}
+
+section{
+	position: relative;
+}
+
+.display{
+	background: white;
+	position:absolute;
+	top: 55%;
+	margin-left: 42%;
+	color:black;
+	opacity: 0.9;
+	font-size:150%;
+	align-items: center;
+	text-align: center;
+}
+.dis
+
+
